@@ -1,0 +1,99 @@
+@media (max-width: 900px) {
+  .header__ul {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .features__items {
+    justify-content: center;
+  }
+  .features__item {
+    width: 100%;
+    text-align: center;
+  }
+  .bg-number {
+    top: -10px;
+    left: 15px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .specifications__content--item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__h1 {
+    font-size: 37px;
+  }
+  .img {
+    border-radius: 10px 40px;
+  }
+  .hero__text {
+    max-width: 100%;
+  }
+  .location__text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  //! уменьшаю текст
+  .title {
+    font-size: 33px;
+  }
+  .hero__h1 {
+    font-size: 33px;
+  }
+  .text {
+    font-size: 17px;
+  }
+  .features__item--title {
+    font-size: 24px;
+  }
+  .features__item--text {
+    font-size: 16px;
+  }
+  // располождение числа в преимуществах
+  .bg-number {
+    top: -15px;
+    left: -10px;
+  }
+
+  .call__items {
+    padding: 32px 38px;
+  }
+
+  .specifications__content {
+    justify-content: center;
+  }
+  .specifications__content--item {
+    width: 100%;
+    text-align: center;
+    margin: 13px;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .call__items {
+    padding: 27px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .call__items {
+    padding: 27px 0px;
+  }
+  .call__item--label {
+    font-size: 17px;
+    letter-spacing: 0px;
+  }
+
+  .owl-next {
+    margin-right: 70px;
+  }
+}
